@@ -1,37 +1,31 @@
 package application;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Boom {
 
 	public static void main(String[] args) {
 		
 		int vet1[] = {1, 2, 3, 4, 5, 6, 7};
 		int vet2[] = {8, 6, 33, 100};
-		int vet3[] = {2, 55, 60, 97, 86};
+		int vet3[] = {2, 55, 60, 170, 86};
 	
 		sevenBoom(vet1);
+		sevenBoom(vet2);
+		sevenBoom(vet3);
 	}
 	
 	public static void sevenBoom(int vet[]) {
 		
-		List test = new ArrayList<>(Arrays.asList(vet));
-
-		int v[] = {7};
-		boolean flag = false;
+		boolean containsSeven = false;
 		
-		for(int i=0; i< vet.length; i++) {
-			if(vet[i] == v[0] || vet[i]%10 == v[0]) {
-				System.out.println("Boom!");
-				flag = true;
-				break;
-			}
+		for (int e : vet) {
+            if(Integer.toString(e).contains("7")) {
+                System.out.println("Boom!");
+                containsSeven=true;
+                break;
+            }
 		}
-		if(!flag) {
-		System.out.println("there is no 7 in the array");
+		if(!containsSeven) {
+			System.out.println("there is no 7 in the array");
 		}
 	}
-
 }
