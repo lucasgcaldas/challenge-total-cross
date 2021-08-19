@@ -11,11 +11,12 @@ In this second exercise, initially in the main, four strings were passed as para
 
 ### Exercise 3: ConsecutiveNumbers
 
+In this third exercise, initially in the main, three arrays were declared and after passed as parameter to the cons function. In the cons function, at firt, sorts the array into ascending numerical order and after, analize if the actualy number plus one is different the next number, if yes, print false, if not, print true.
 
 
 ### Exercise 4: LargestGap
 
-
+In this fourth exercise, initially in the main, three arrays were declared and after passed as parameter to the largestGap function. In the largestGap function, at firts, were declared a variable int starting with 0, and then starts a List, through a for, is saved into list the differenc between the next value with the actual value, and after, analize which is the largest gap and print it.
 
 ### Exercise 5: PrimeNumbers
 
