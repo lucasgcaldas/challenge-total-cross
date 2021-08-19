@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PrimeNumbers {
-
+	//exercise link: https://edabit.com/challenge/z8vvSdWjAPu5ufBuR
 	public static void main(String[] args) {
 
 		primeNumbers(10);

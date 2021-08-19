@@ -1,7 +1,7 @@
 package application;
 
 public class Boom {
-
+	//exercise link: https://edabit.com/challenge/CKqfEowjmSTw2jsso
 	public static void main(String[] args) {
 		
 		int vet1[] = {1, 2, 3, 4, 5, 6, 7};

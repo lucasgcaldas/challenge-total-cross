@@ -3,7 +3,7 @@ package application;
 import java.util.Arrays;
 
 public class ConsecutiveNumbers {
-
+	// exercise link: https://edabit.com/challenge/Md6usCHQ7Xsj2fQi3
 	public static void main(String[] args) {
 
 		int vet1[] = { 5, 1, 4, 3, 2};
