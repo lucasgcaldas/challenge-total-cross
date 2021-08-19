@@ -20,4 +20,4 @@ In this fourth exercise, initially in the main, three arrays were declared and a
 
 ### Exercise 5: PrimeNumbers
 
-
+In this fiveth exercise, initially in the main, three number were passed as parameter to the primeNumbers. In the primeNumbers function, at first starts a List and then,  through a for, it's possible to analize if into the sequence of number which is prime, and after print how many prime number are in the sequence.
